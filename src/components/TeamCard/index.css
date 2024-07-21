@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.li {
+  width: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffffff33;
+  margin: 5px;
+  height: 35%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.link{
+  text-decoration: none;
+  width: 45%;
+
+}
+@media screen and (min-width:768px){
+  .li{
+    height:20%;
+  }
+}
+.li-img {
+  width: 25%;
+}
+.li-name {
+  width: 50%;
+  margin-left: 5px;
+  color: white;
+  font-family: 'Brief sherif';
+  font-weight: 500;
+}
